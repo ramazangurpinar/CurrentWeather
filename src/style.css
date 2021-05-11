@@ -1,0 +1,59 @@
+*{ margin: 0; padding: 0;box-sizing: border-box;}
+
+body{
+    font-family: 'montserrat', sans-serif;
+    color: black;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    margin-top: 50px;
+}
+
+.header{ 
+    padding: 50px 20px 30px 20px;
+}
+
+.header h1{
+    font-size: 50px;
+    color: black;
+}
+
+.header input{
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid black;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    margin-top: 25px;
+}
+
+.city{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 11px;
+}
+
+.temp{
+    font-size: 100px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.desc{
+    font-size: 25px;
+    font-style: italic;
+}
+
+.minmax{
+    margin-top: 10px;
+    font-size: 24px;
+}
